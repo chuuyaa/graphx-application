@@ -8,13 +8,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object sparklingGraphTwitter extends Serializable {
 
-  // datafile for execution from fsktm's server
-  //var path_100k = "/user/hadoop/data/graphx/100k.txt";
-  //val spark = new JavaSparkContext(new SparkConf().setAppName("sparklingGraphTwitter").setMaster("yarn"));
-
-  // datafile for execution from local pc / intellij ide [UNCOMMENT FOR TESTING] - might not need if DO server can be our datastorage server
-  var path_100k = "/Users/User/IdeaProject/input/50k.txt"
-  val spark = new JavaSparkContext(new SparkConf().setAppName("sparklingGraphTwitter").setMaster("local[*]"));
+  val spark = new JavaSparkContext(new SparkConf().setAppName("gclustering").setMaster("local[*]"));
 
   /**
     * Usage : spark-submit --class gclustering.sparklingGraphTwitter /path/to/jar [path to file] (eg; /tmp/100k.txt)

@@ -10,14 +10,15 @@ import scala.reflect.ClassTag
 object OverlappingCommunityDetection {
 
   def main(args: Array[String]): Unit = {
-
-    val spark = new JavaSparkContext(new SparkConf().setAppName("labelPropagation").setMaster("yarn"));
-    // [UNCOMMENT FOR TESTING]
-    //val spark = new JavaSparkContext(new SparkConf().setAppName("labelPropagation").setMaster("local[*]"));
+    if (args.length == 0) {
+      println("dude, i need at least one parameter")
+    }
+    val path = args(0)
+    val spark = new JavaSparkContext(new SparkConf().setAppName("ocdetection").setMaster("local[*]"));
     spark.hadoopConfiguration().set("mapred.max.split.size", "10000");
 
     val graph = time {
-      generateGraph(spark)
+      generateGraph(spark,path)
     }
 
     // find the overlapping communities with maxiteration 5 and max noOfCommunities per node 4
@@ -127,9 +128,8 @@ object OverlappingCommunityDetection {
     *
     * @param spark
     */
-  def generateGraph(spark: SparkContext) = {
+  def generateGraph(spark: SparkContext, path: String) = {
 
-    var path = "/user/hadoop/data/graphx/100k.txt";
     var user_path = "/user/hadoop/data/graphx/users-test.txt";
 
     // [UNCOMMENT FOR TESTING]
