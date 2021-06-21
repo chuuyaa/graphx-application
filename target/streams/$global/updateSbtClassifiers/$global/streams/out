@@ -10,7 +10,6 @@
 [debug] == resolving dependencies graphx-experiment#graphx-experiment$sbt_2.10;1.0->org.scala-sbt#sbt;0.13.18 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.18 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.18 {default=[default(compile)]}
-[debug] no default cache defined: set to C:\Users\User\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.18
 [debug] 	found org.scala-sbt#sbt;0.13.18 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.7 {compile=[default(compile)]}
@@ -1787,9 +1786,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.18!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 1219ms :: artifacts dl 62ms
+[debug] :: resolution report :: resolve 1066ms :: artifacts dl 51ms
 [debug] 	report for graphx-experiment#graphx-experiment$sbt_2.10;1.0 default produced in C:\Users\User\graphx-application\target\scala-2.12\resolution-cache\reports\graphx-experiment-graphx-experiment$sbt_2.10-default.xml
-[debug] 	resolve done (1219ms resolve - 62ms download)
+[debug] 	resolve done (1066ms resolve - 51ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: graphx-experiment#graphx-experiment$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2478,6 +2477,8 @@
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.50!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.18!classpath.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.18!apply-macro.jar(src)
-[debug] :: resolution report :: resolve 251ms :: artifacts dl 63ms
+[debug] :: resolution report :: resolve 263ms :: artifacts dl 44ms
 [debug] 	report for graphx-experiment#graphx-experiment$sources_2.10;1.0 default produced in C:\Users\User\graphx-application\target\scala-2.12\resolution-cache\reports\graphx-experiment-graphx-experiment$sources_2.10-default.xml
-[debug] 	resolve done (251ms resolve - 63ms download)
+[debug] 	resolve done (263ms resolve - 44ms download)
+default.xml
+[debug] 	resolve done (208ms resolve - 46ms download)

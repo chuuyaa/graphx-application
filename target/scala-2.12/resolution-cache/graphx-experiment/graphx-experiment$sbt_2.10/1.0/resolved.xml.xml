@@ -4,7 +4,7 @@
 		module="graphx-experiment$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20210608154824"
+		publication="20210621173426"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

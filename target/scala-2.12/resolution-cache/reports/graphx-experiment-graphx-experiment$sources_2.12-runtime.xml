@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20210608154826"/>
+		date="20210621173451"/>
 	<dependencies>
 		<module organisation="org.scalaj" name="scalaj-http_2.12">
 			<revision name="2.4.2" status="release" pubdate="20190616010311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">

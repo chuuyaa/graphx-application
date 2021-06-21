@@ -8,7 +8,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object sparklingGraphTwitter extends Serializable {
 
-  val spark = new JavaSparkContext(new SparkConf().setAppName("gclustering").setMaster("local[*]"));
+  val spark = new JavaSparkContext(new SparkConf().setAppName("gclustering"));
 
   /**
     * Usage : spark-submit --class gclustering.sparklingGraphTwitter /path/to/jar [path to file] (eg; /tmp/100k.txt)

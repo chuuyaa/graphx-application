@@ -2,7 +2,7 @@
 <module external.linked.project.id="graphx-application [file:/C:/Users/User/graphx-application/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Python" name="Python">
-      <configuration sdkName="Python 3.8 (graphx-experiment)" />
+      <configuration sdkName="" />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
@@ -226,6 +226,5 @@
     <orderEntry type="library" scope="PROVIDED" name="sbt: org.xerial.snappy:snappy-java:1.1.8.2:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: oro:oro:2.0.8:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: pl.edu.icm:JLargeArrays:1.5:jar" level="project" />
-    <orderEntry type="library" name="Python 3.8 (graphx-experiment) interpreter library" level="application" />
   </component>
 </module>

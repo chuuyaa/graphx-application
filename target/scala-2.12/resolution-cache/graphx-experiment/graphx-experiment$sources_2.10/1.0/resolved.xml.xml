@@ -4,7 +4,7 @@
 		module="graphx-experiment$sources_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20210608154826"
+		publication="20210621173427"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
