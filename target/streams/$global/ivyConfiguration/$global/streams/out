@@ -1,3 +1,5 @@
-[debug] Other repositories:
-[debug] Default repositories:
-[debug] Using inline dependencies specified in Scala.
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m
+[0m[[33mwarn[0m] [0mBinary version (2.4.0) for dependency org.scala-lang#scala-reflect;2.4.0[0m
+[0m[[33mwarn[0m] [0m	in default#graphx-application_2.11;1.0 differs from Scala binary version in project (2.11).[0m

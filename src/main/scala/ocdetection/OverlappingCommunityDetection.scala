@@ -14,7 +14,7 @@ object OverlappingCommunityDetection {
       println("dude, i need at least one parameter")
     }
     val path = args(0)
-    val spark = new JavaSparkContext(new SparkConf().setAppName("ocdetection").setMaster("local[*]"));
+    val spark = new JavaSparkContext(new SparkConf().setAppName("ocdetection"));
     spark.hadoopConfiguration().set("mapred.max.split.size", "10000");
 
     val graph = time {

@@ -14,7 +14,7 @@ object sparklingGraphTwitter extends Serializable {
     * Usage : spark-submit --class gclustering.sparklingGraphTwitter /path/to/jar [path to file] (eg; /tmp/100k.txt)
     * @param args
     */
-  def main(args: Array[String]): Unit = {
+  def main (args: Array[String]): Unit = {
     if (args.length == 0) {
       println("dude, i need at least one parameter")
     }

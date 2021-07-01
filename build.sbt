@@ -8,13 +8,13 @@ import sun.security.tools.PathList
 //    mainClass in Compile := Some("graphx.sparklingGraphTwitter")
 //  )
 
-name := "graphx-experiment"
+name := "graphx-application"
 
 version := "1.0"
 
-scalaVersion := "2.12.13"
+scalaVersion := "2.11.12"
 
-val sparkVersion = "3.1.0"
+val sparkVersion = "2.4.8"
 
 resolvers +=  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
@@ -36,5 +36,6 @@ libraryDependencies += "ml.sparkling" % "sparkling-graph-examples_2.11" % "0.0.8
 libraryDependencies += "ml.sparkling" % "sparkling-graph-loaders_2.11" % "0.0.8-SNAPSHOT"
 libraryDependencies += "ml.sparkling" % "sparkling-graph-operators_2.11" % "0.0.8-SNAPSHOT"
 
+updateOptions := updateOptions.value.withLatestSnapshots(false)
 // Exclude Scala from the assembly jar, because spark already includes it.
 //assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false)
