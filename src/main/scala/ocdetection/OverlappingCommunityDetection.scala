@@ -130,7 +130,7 @@ object OverlappingCommunityDetection {
     */
   def generateGraph(spark: SparkContext, path: String) = {
 
-    var user_path = "/user/hadoop/data/graphx/users-test.txt";
+    var user_path = "/tmp/users-test.txt";
 
     // [UNCOMMENT FOR TESTING]
     //val path = "/Users/User/IdeaProject/input/50.txt"
